@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: "Shadows Into Light", cursive;
+}
+
+h1 {
+  text-align: center;
+}
+#mainContent {
+  width: 1200px;
+  margin: auto;
+}
+button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: 0px;
+  box-shadow: 1px 1px 5px #555;
+  border-radius: 5px;
+}
+#alphabetButtonSet {
+  margin: auto;
+  text-align: center;
+}
+
+#answerDiv {
+  margin: auto;
+  width: 1200px;
+  text-align: center;
+  font-size: 40px;
+}
+
+#imgContainer {
+  text-align: center;
+  height: 500px;
+}
+
+#imgContainer > img {
+  height: 500px;
+}
+
+#curtain {
+  position: fixed;
+  display: none;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100vw;
+  height: 100vh;
+}
